@@ -3,3 +3,7 @@ en:
   model_files:
     download:
       open_local_files: "Open local file"
+  components:
+    open_local_files:
+      model_open_link:
+        label: Open local model folder

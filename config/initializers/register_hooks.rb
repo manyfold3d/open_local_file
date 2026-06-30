@@ -1,5 +1,3 @@
-# Register UI hooks here
-
 Rails.application.config.after_initialize do
-  # PluginManager.register(:navbar, MyComponent)
+  PluginManager.register(:model_menu, Components::OpenLocalFiles::ModelOpenLink)
 end
