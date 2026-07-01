@@ -9,4 +9,7 @@ Gem::Specification.new do |spec|
   spec.summary = "Open local files directly via file:// URLs"
   spec.description = "Adds file:// URLs to file menus and model sidebar, so you can easily jump to actual files if they're available locally."
   spec.license = "MIT"
+  spec.metadata = {
+    "manyfold_version" => ">= 0.146.0",
+  }
 end
